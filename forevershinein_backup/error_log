@@ -1,0 +1,381 @@
+[26-Apr-2023 16:05:40 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Admin\ProductController::deleteVariantProduct() in /home/wdrckfxhuetd/public_html/app/Http/Controllers/Admin/ProductController.php on line 898
+[01-May-2023 11:49:30 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[01-May-2023 12:06:56 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[01-May-2023 12:16:04 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[01-May-2023 12:16:12 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[01-May-2023 12:17:33 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[01-May-2023 15:05:46 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[01-May-2023 15:14:28 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[01-May-2023 16:57:40 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[01-May-2023 17:37:56 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[01-May-2023 18:09:50 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[01-May-2023 19:50:20 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[01-May-2023 20:15:27 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[01-May-2023 20:34:58 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[01-May-2023 20:44:59 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[01-May-2023 21:11:45 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[01-May-2023 21:38:41 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[01-May-2023 22:02:24 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[01-May-2023 22:22:59 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[01-May-2023 22:46:01 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[01-May-2023 23:03:40 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[01-May-2023 23:30:20 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[01-May-2023 23:52:32 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 00:05:04 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 00:26:45 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 00:36:49 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 00:59:17 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 01:06:40 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 01:22:28 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 01:34:56 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 01:39:45 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 01:50:44 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 02:26:15 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 02:36:14 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 02:40:02 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 03:08:32 UTC] PHP Warning:  require(/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:08:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wdrckfxhuetd/public_html/public/index.php:34
+Stack trace:
+#0 /home/wdrckfxhuetd/public_html/server.php(21): require_once()
+#1 {main}
+  thrown in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:08:41 UTC] PHP Warning:  require(/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:08:41 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wdrckfxhuetd/public_html/public/index.php:34
+Stack trace:
+#0 /home/wdrckfxhuetd/public_html/server.php(21): require_once()
+#1 {main}
+  thrown in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:08:46 UTC] PHP Warning:  require(/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:08:46 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wdrckfxhuetd/public_html/public/index.php:34
+Stack trace:
+#0 /home/wdrckfxhuetd/public_html/server.php(21): require_once()
+#1 {main}
+  thrown in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:08:47 UTC] PHP Warning:  require(/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:08:47 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wdrckfxhuetd/public_html/public/index.php:34
+Stack trace:
+#0 /home/wdrckfxhuetd/public_html/server.php(21): require_once()
+#1 {main}
+  thrown in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:08:53 UTC] PHP Warning:  require(/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:08:53 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wdrckfxhuetd/public_html/public/index.php:34
+Stack trace:
+#0 /home/wdrckfxhuetd/public_html/server.php(21): require_once()
+#1 {main}
+  thrown in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:08:57 UTC] PHP Warning:  require(/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:08:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wdrckfxhuetd/public_html/public/index.php:34
+Stack trace:
+#0 /home/wdrckfxhuetd/public_html/server.php(21): require_once()
+#1 {main}
+  thrown in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:09:02 UTC] PHP Warning:  require(/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:09:02 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wdrckfxhuetd/public_html/public/index.php:34
+Stack trace:
+#0 /home/wdrckfxhuetd/public_html/server.php(21): require_once()
+#1 {main}
+  thrown in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:09:10 UTC] PHP Warning:  require(/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:09:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wdrckfxhuetd/public_html/public/index.php:34
+Stack trace:
+#0 /home/wdrckfxhuetd/public_html/server.php(21): require_once()
+#1 {main}
+  thrown in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:09:22 UTC] PHP Warning:  require(/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:09:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wdrckfxhuetd/public_html/public/index.php:34
+Stack trace:
+#0 /home/wdrckfxhuetd/public_html/server.php(21): require_once()
+#1 {main}
+  thrown in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:09:25 UTC] PHP Warning:  require(/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:09:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wdrckfxhuetd/public_html/public/index.php:34
+Stack trace:
+#0 /home/wdrckfxhuetd/public_html/server.php(21): require_once()
+#1 {main}
+  thrown in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:09:29 UTC] PHP Warning:  require(/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:09:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wdrckfxhuetd/public_html/public/index.php:34
+Stack trace:
+#0 /home/wdrckfxhuetd/public_html/server.php(21): require_once()
+#1 {main}
+  thrown in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:09:36 UTC] PHP Warning:  require(/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:09:36 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wdrckfxhuetd/public_html/public/index.php:34
+Stack trace:
+#0 /home/wdrckfxhuetd/public_html/server.php(21): require_once()
+#1 {main}
+  thrown in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:09:38 UTC] PHP Warning:  require(/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:09:38 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wdrckfxhuetd/public_html/public/index.php:34
+Stack trace:
+#0 /home/wdrckfxhuetd/public_html/server.php(21): require_once()
+#1 {main}
+  thrown in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:10:36 UTC] PHP Warning:  require(/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:10:36 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wdrckfxhuetd/public_html/public/index.php:34
+Stack trace:
+#0 /home/wdrckfxhuetd/public_html/server.php(21): require_once()
+#1 {main}
+  thrown in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:10:52 UTC] PHP Warning:  require(/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:10:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wdrckfxhuetd/public_html/public/index.php:34
+Stack trace:
+#0 /home/wdrckfxhuetd/public_html/server.php(21): require_once()
+#1 {main}
+  thrown in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:11:05 UTC] PHP Warning:  require(/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:11:05 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wdrckfxhuetd/public_html/public/index.php:34
+Stack trace:
+#0 /home/wdrckfxhuetd/public_html/server.php(21): require_once()
+#1 {main}
+  thrown in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:12:14 UTC] PHP Warning:  require(/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:12:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wdrckfxhuetd/public_html/public/index.php:34
+Stack trace:
+#0 /home/wdrckfxhuetd/public_html/server.php(21): require_once()
+#1 {main}
+  thrown in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:12:23 UTC] PHP Warning:  require(/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:12:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wdrckfxhuetd/public_html/public/index.php:34
+Stack trace:
+#0 /home/wdrckfxhuetd/public_html/server.php(21): require_once()
+#1 {main}
+  thrown in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:12:28 UTC] PHP Warning:  require(/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:12:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wdrckfxhuetd/public_html/public/index.php:34
+Stack trace:
+#0 /home/wdrckfxhuetd/public_html/server.php(21): require_once()
+#1 {main}
+  thrown in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:12:31 UTC] PHP Warning:  require(/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:12:31 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wdrckfxhuetd/public_html/public/index.php:34
+Stack trace:
+#0 /home/wdrckfxhuetd/public_html/server.php(21): require_once()
+#1 {main}
+  thrown in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:12:33 UTC] PHP Warning:  require(/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:12:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wdrckfxhuetd/public_html/public/index.php:34
+Stack trace:
+#0 /home/wdrckfxhuetd/public_html/server.php(21): require_once()
+#1 {main}
+  thrown in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:12:36 UTC] PHP Warning:  require(/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:12:36 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wdrckfxhuetd/public_html/public/index.php:34
+Stack trace:
+#0 /home/wdrckfxhuetd/public_html/server.php(21): require_once()
+#1 {main}
+  thrown in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:12:36 UTC] PHP Warning:  require(/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:12:36 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wdrckfxhuetd/public_html/public/index.php:34
+Stack trace:
+#0 /home/wdrckfxhuetd/public_html/server.php(21): require_once()
+#1 {main}
+  thrown in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:24:04 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 03:37:08 UTC] PHP Warning:  require(/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:37:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wdrckfxhuetd/public_html/public/index.php:34
+Stack trace:
+#0 /home/wdrckfxhuetd/public_html/server.php(21): require_once()
+#1 {main}
+  thrown in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:37:10 UTC] PHP Warning:  require(/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:37:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wdrckfxhuetd/public_html/public/index.php:34
+Stack trace:
+#0 /home/wdrckfxhuetd/public_html/server.php(21): require_once()
+#1 {main}
+  thrown in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:37:12 UTC] PHP Warning:  require(/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:37:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wdrckfxhuetd/public_html/public/index.php:34
+Stack trace:
+#0 /home/wdrckfxhuetd/public_html/server.php(21): require_once()
+#1 {main}
+  thrown in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:37:55 UTC] PHP Warning:  require(/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:37:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wdrckfxhuetd/public_html/public/index.php:34
+Stack trace:
+#0 /home/wdrckfxhuetd/public_html/server.php(21): require_once()
+#1 {main}
+  thrown in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:38:21 UTC] PHP Warning:  require(/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:38:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wdrckfxhuetd/public_html/public/index.php:34
+Stack trace:
+#0 /home/wdrckfxhuetd/public_html/server.php(21): require_once()
+#1 {main}
+  thrown in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:39:09 UTC] PHP Warning:  require(/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:39:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wdrckfxhuetd/public_html/public/index.php:34
+Stack trace:
+#0 /home/wdrckfxhuetd/public_html/server.php(21): require_once()
+#1 {main}
+  thrown in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:39:41 UTC] PHP Warning:  require(/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:39:41 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wdrckfxhuetd/public_html/public/index.php:34
+Stack trace:
+#0 /home/wdrckfxhuetd/public_html/server.php(21): require_once()
+#1 {main}
+  thrown in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:39:44 UTC] PHP Warning:  require(/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:39:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wdrckfxhuetd/public_html/public/index.php:34
+Stack trace:
+#0 /home/wdrckfxhuetd/public_html/server.php(21): require_once()
+#1 {main}
+  thrown in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:39:46 UTC] PHP Warning:  require(/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:39:46 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wdrckfxhuetd/public_html/public/index.php:34
+Stack trace:
+#0 /home/wdrckfxhuetd/public_html/server.php(21): require_once()
+#1 {main}
+  thrown in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:39:51 UTC] PHP Warning:  require(/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:39:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wdrckfxhuetd/public_html/public/index.php:34
+Stack trace:
+#0 /home/wdrckfxhuetd/public_html/server.php(21): require_once()
+#1 {main}
+  thrown in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:39:59 UTC] PHP Warning:  require(/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:39:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wdrckfxhuetd/public_html/public/index.php:34
+Stack trace:
+#0 /home/wdrckfxhuetd/public_html/server.php(21): require_once()
+#1 {main}
+  thrown in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:40:03 UTC] PHP Warning:  require(/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:40:03 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wdrckfxhuetd/public_html/public/index.php:34
+Stack trace:
+#0 /home/wdrckfxhuetd/public_html/server.php(21): require_once()
+#1 {main}
+  thrown in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:40:06 UTC] PHP Warning:  require(/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:40:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wdrckfxhuetd/public_html/public/index.php:34
+Stack trace:
+#0 /home/wdrckfxhuetd/public_html/server.php(21): require_once()
+#1 {main}
+  thrown in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:40:49 UTC] PHP Warning:  require(/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:40:49 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wdrckfxhuetd/public_html/public/index.php:34
+Stack trace:
+#0 /home/wdrckfxhuetd/public_html/server.php(21): require_once()
+#1 {main}
+  thrown in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:45:13 UTC] PHP Warning:  require(/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:45:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wdrckfxhuetd/public_html/public/index.php:34
+Stack trace:
+#0 /home/wdrckfxhuetd/public_html/server.php(21): require_once()
+#1 {main}
+  thrown in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 03:49:08 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 04:00:44 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 04:02:46 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 04:05:15 UTC] PHP Warning:  require(/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 04:05:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wdrckfxhuetd/public_html/public/index.php:34
+Stack trace:
+#0 /home/wdrckfxhuetd/public_html/server.php(21): require_once()
+#1 {main}
+  thrown in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 04:06:48 UTC] PHP Warning:  require(/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 04:06:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wdrckfxhuetd/public_html/public/index.php:34
+Stack trace:
+#0 /home/wdrckfxhuetd/public_html/server.php(21): require_once()
+#1 {main}
+  thrown in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 04:06:49 UTC] PHP Warning:  require(/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 04:06:49 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wdrckfxhuetd/public_html/public/index.php:34
+Stack trace:
+#0 /home/wdrckfxhuetd/public_html/server.php(21): require_once()
+#1 {main}
+  thrown in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 04:07:00 UTC] PHP Warning:  require(/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 04:07:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wdrckfxhuetd/public_html/public/index.php:34
+Stack trace:
+#0 /home/wdrckfxhuetd/public_html/server.php(21): require_once()
+#1 {main}
+  thrown in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 04:07:44 UTC] PHP Warning:  require(/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 04:07:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wdrckfxhuetd/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wdrckfxhuetd/public_html/public/index.php:34
+Stack trace:
+#0 /home/wdrckfxhuetd/public_html/server.php(21): require_once()
+#1 {main}
+  thrown in /home/wdrckfxhuetd/public_html/public/index.php on line 34
+[02-May-2023 05:16:22 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 06:59:18 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 08:19:04 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 08:41:37 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 09:09:00 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 09:17:57 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 10:16:35 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 11:35:54 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 12:13:32 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 12:50:18 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 14:00:42 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 14:47:41 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 14:57:33 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 15:04:16 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 15:33:49 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 15:43:21 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 15:54:31 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 16:11:09 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 16:43:23 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 16:55:21 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 17:04:26 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 17:08:33 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/wdrckfxhuetd/public_html/app/Http/Controllers/Controller.php on line 18
+[02-May-2023 17:08:36 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/wdrckfxhuetd/public_html/app/Http/Controllers/Controller.php on line 18
+[02-May-2023 17:09:18 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/wdrckfxhuetd/public_html/app/Http/Controllers/Controller.php on line 3
+[02-May-2023 17:09:20 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/wdrckfxhuetd/public_html/app/Http/Controllers/Controller.php on line 3
+[02-May-2023 17:18:45 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 17:33:02 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 17:51:26 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 18:35:28 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 18:53:50 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 19:24:10 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 19:35:34 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/wdrckfxhuetd/public_html/app/Http/Controllers/Controller.php on line 5
+[02-May-2023 19:35:37 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/wdrckfxhuetd/public_html/app/Http/Controllers/Controller.php on line 5
+[02-May-2023 19:37:19 UTC] PHP Fatal error:  Trait "App\Http\Controllers\Queueable" not found in /home/wdrckfxhuetd/public_html/app/Http/Controllers/Controller.php on line 21
+[02-May-2023 19:37:22 UTC] PHP Fatal error:  Trait "App\Http\Controllers\Queueable" not found in /home/wdrckfxhuetd/public_html/app/Http/Controllers/Controller.php on line 21
+[02-May-2023 19:38:03 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 19:40:53 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Mail as Mail because the name is already in use in /home/wdrckfxhuetd/public_html/app/Http/Controllers/HomeController.php on line 11
+[02-May-2023 19:40:57 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Mail as Mail because the name is already in use in /home/wdrckfxhuetd/public_html/app/Http/Controllers/HomeController.php on line 11
+[02-May-2023 20:06:52 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 22:08:36 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 22:43:28 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[02-May-2023 22:56:12 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[03-May-2023 00:28:25 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[03-May-2023 00:49:26 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[03-May-2023 01:14:48 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[03-May-2023 01:27:27 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[03-May-2023 02:40:05 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[03-May-2023 03:18:47 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[03-May-2023 03:41:51 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[03-May-2023 04:47:19 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[03-May-2023 05:20:38 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[03-May-2023 06:01:40 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[03-May-2023 06:36:52 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[03-May-2023 06:54:28 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[03-May-2023 07:28:00 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[03-May-2023 07:35:11 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[03-May-2023 07:52:01 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[03-May-2023 08:23:53 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[03-May-2023 08:39:39 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[03-May-2023 09:19:14 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[03-May-2023 09:51:00 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[03-May-2023 09:58:26 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[03-May-2023 10:35:19 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[03-May-2023 11:00:23 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[03-May-2023 11:33:47 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[03-May-2023 11:52:37 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[03-May-2023 12:08:14 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[03-May-2023 12:39:06 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[03-May-2023 12:46:51 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[03-May-2023 13:10:30 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[03-May-2023 14:05:16 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[03-May-2023 14:24:19 UTC] PHP Deprecated:  Optional parameter $countryId declared before required parameter $shippingId is implicitly treated as a required parameter in /home/wdrckfxhuetd/public_html/app/Helpers/commonHelper.php on line 425
+[26-May-2023 16:17:58 UTC] PHP Warning:  Uncaught ErrorException: require_once(/path/to/stripe-php/init.php): failed to open stream: No such file or directory in /home/wdrckfxhuetd/public_html/app/Http/Controllers/API/PostLoginController.php:832
+Stack trace:
+#0 /home/wdrckfxhuetd/public_html/app/Http/Controllers/API/PostLoginController.php(832): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(/p...', '/home/wdrckfxhu...', 832, Array)
+#1 /home/wdrckfxhuetd/public_html/app/Http/Controllers/API/PostLoginController.php(832): require_once()
+#2 /home/wdrckfxhuetd/public_html/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): App\Http\Controllers\API\PostLoginController->checkout(Object(Illuminate\Http\Request))
+#3 /home/wdrckfxhuetd/public_html/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction('checkout', Array)
+#4 /home/wdrckfxhuetd/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php(262): Illuminate\Routing\ControllerDi in /home/wdrckfxhuetd/public_html/app/Http/Controllers/API/PostLoginController.php on line 832
+[26-May-2023 16:17:58 UTC] PHP Fatal error:  App\Http\Controllers\API\PostLoginController::checkout(): Failed opening required '/path/to/stripe-php/init.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/wdrckfxhuetd/public_html/app/Http/Controllers/API/PostLoginController.php on line 832
+[09-Jun-2023 01:17:24 UTC] Stripe Notice: Undefined property of Stripe\PaymentIntent instance: charges
+[11-Jun-2023 03:02:33 UTC] PHP Fatal error:  Cannot use Exception as Exception because the name is already in use in /home/wdrckfxhuetd/public_html/app/Http/Controllers/API/PreLoginController.php on line 20
+[11-Jun-2023 03:02:43 UTC] PHP Fatal error:  Cannot use Exception as Exception because the name is already in use in /home/wdrckfxhuetd/public_html/app/Http/Controllers/API/PreLoginController.php on line 20
+[11-Jun-2023 03:03:27 UTC] PHP Fatal error:  Cannot use Exception as Exception because the name is already in use in /home/wdrckfxhuetd/public_html/app/Http/Controllers/API/PreLoginController.php on line 20

@@ -1,0 +1,26 @@
+.services-icon{
+    height: 30%;
+    width: 30%;
+    border-radius: none;
+    align-items: center;
+    background-color: #134E4A;
+    background: none;
+    margin-left: 45%;
+    
+}
+.services-icon img{
+    border-radius: 50%;
+    align-items: center;
+    text-align: center;
+
+}
+
+/* Add to Cart button rectangular style */
+button {
+    border-radius: 0 !important;
+}
+
+/* Reduce spacing between price and Add to Cart button */
+.flex.items-center.justify-between.w-full.mt-1 {
+    margin-bottom: 0.25rem; /* reduce bottom margin to make price and button closer */
+}
