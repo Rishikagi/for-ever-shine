@@ -1,18 +1,21 @@
-.services-icon{
-    height: 30%;
-    width: 30%;
-    border-radius: none;
-    align-items: center;
-    background-color: #134E4A;
-    background: none;
-    margin-left: 45%;
-    
-}
-.services-icon img{
+.services-icon {
+    width: 5rem;
+    height: 5rem;
     border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    text-align: center;
+    background-color: transparent;
+}
 
+.services-icon img {
+    border-radius: 50%;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
 }
 
 /* Add to Cart button rectangular style */
@@ -29,5 +32,11 @@ button {
 @media (max-width: 640px) {
   .blog-image-container {
     height: 250px !important;
+  }
+  /* Fix services icon alignment on mobile */
+  .services-icon {
+    width: 4rem;
+    height: 4rem;
+    margin: 0 auto !important;
   }
 }
