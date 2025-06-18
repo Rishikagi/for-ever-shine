@@ -140,7 +140,7 @@ export default function HomeSections() {
             <div className="flex items-center justify-between w-full mt-1">
               <span className="text-sm md:text-base font-bold text-teal-700">{prod.price}</span>
             </div>
-            <div className="flex gap-4 mt-2">
+            <div className="absolute top-2 right-2 flex gap-2 bg-white rounded-full p-1 shadow-md z-10">
               <button
                 onClick={() => {
                   if (!isInWishlist(prod.id)) {
@@ -152,7 +152,7 @@ export default function HomeSections() {
                   }
                 }}
                 aria-label={isInWishlist(prod.id) ? "Remove from wishlist" : "Add to wishlist"}
-                className="p-2 bg-white rounded-full shadow-md hover:bg-gray-100 transition-colors"
+                className="p-2 rounded-full"
               >
                 <HeartIcon
                   className={`w-6 h-6 ${
@@ -163,7 +163,7 @@ export default function HomeSections() {
               <button
                 onClick={() => handleShare(prod)}
                 aria-label="Share product"
-                className="p-2 bg-white rounded-full shadow-md hover:bg-gray-100 transition-colors"
+                className="p-2 rounded-full"
               >
                 <ShareIcon className="w-6 h-6 text-gray-700" />
               </button>
@@ -195,7 +195,7 @@ export default function HomeSections() {
             <div className="flex items-center justify-between w-full mt-1">
               <span className="text-sm md:text-base font-bold text-teal-700">{prod.price}</span>
             </div>
-            <div className="flex gap-4 mt-2">
+            <div className="absolute top-2 right-2 flex gap-2 bg-white rounded-full p-1 shadow-md z-10">
               <button
                 onClick={() => {
                   if (!isInWishlist(prod.id)) {
@@ -206,7 +206,7 @@ export default function HomeSections() {
                   }
                 }}
                 aria-label="Add to wishlist"
-                className="p-2 bg-white rounded-full shadow-md hover:bg-gray-100 transition-colors"
+                className="p-2 rounded-full"
               >
                 <HeartIcon
                   className={`w-6 h-6 ${
@@ -217,7 +217,7 @@ export default function HomeSections() {
               <button
                 onClick={() => handleShare(prod)}
                 aria-label="Share product"
-                className="p-2 bg-white rounded-full shadow-md hover:bg-gray-100 transition-colors"
+                className="p-2 rounded-full"
               >
                 <ShareIcon className="w-6 h-6 text-gray-700" />
               </button>
@@ -233,11 +233,11 @@ export default function HomeSections() {
       </div>
       
       {/* Forevershine Banner Section - Full Width */}
-      <div className="relative w-full h-[20rem] md:h-[35rem] overflow-hidden mt-8 flex items-center justify-center animate-fadeInUp">
+      <div className="relative w-full h-[15rem] md:h-[35rem] overflow-hidden mt-8 flex items-center justify-center animate-fadeInUp">
       <img 
       src={Forevershine} 
       alt="Forever Shine" 
-      className="absolute inset-0 w-full h-full object-cover object-center bg-white" 
+      className="absolute inset-0 w-full h-full object-contain md:object-cover object-center bg-white" 
      />
       </div>
 
@@ -245,7 +245,7 @@ export default function HomeSections() {
       <div className="w-full bg-white py-8 md:py-14 shadow-inner rounded-t-3xl">
         <div className="max-w-6xl mx-auto px-4 md:px-0">
           <h2 className="text-3xl md:text-4xl font-extrabold mb-6 md:mb-10 text-left tracking-tight text-gray-900 drop-shadow">Services</h2>
-          <div className="grid grid-cols-4 gap-8 md:gap-10 text-center items-center">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 md:gap-10 text-center items-center">
             <div className="flex flex-col items-center">
               <div className="font-bold text-xl md:text-2xl mb-2">
                 <div className='services-icon mb-1 flex justify-center items-center'><img src='https://icon-library.com/images/free-shipping-icon-vector/free-shipping-icon-vector-6.jpg'  className='shadow-xl border-4 border-gray-100 hover:scale-105 hover:shadow-2xl transition-all duration-300'/></div>

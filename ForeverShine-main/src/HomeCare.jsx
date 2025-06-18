@@ -113,7 +113,7 @@ export default function HomeCare() {
             <div className="flex items-center justify-between w-full mt-1">
               <span className="text-base font-bold text-teal-700">{product.priceDisplay}</span>
             </div>
-            <div className="flex gap-4 mt-2">
+            <div className="absolute top-2 right-2 flex gap-2 bg-white rounded-full p-1 shadow-md z-10">
               <button
                 onClick={() => {
                   if (!isInWishlist(product.id)) {
@@ -124,7 +124,7 @@ export default function HomeCare() {
                   }
                 }}
                 aria-label="Add to wishlist"
-                className="p-2 bg-white rounded-full shadow-md hover:bg-gray-100 transition-colors"
+                className="p-2 rounded-full"
               >
                 <HeartIcon
                   className={`w-6 h-6 ${
@@ -135,7 +135,7 @@ export default function HomeCare() {
               <button
                 onClick={() => handleShare(product)}
                 aria-label="Share product"
-                className="p-2 bg-white rounded-full shadow-md hover:bg-gray-100 transition-colors"
+                className="p-2 rounded-full"
               >
                 <ShareIcon className="w-6 h-6 text-gray-700" />
               </button>
