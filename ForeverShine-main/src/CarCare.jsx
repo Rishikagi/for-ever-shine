@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useCart } from './context/CartContext';
+import { useWishlist } from './context/WishlistContext';
+import { HeartIcon, ShareIcon } from '@heroicons/react/24/outline';
 import CarPerfume from './images/CarPerfume.webp';
 import DashboardPolish from './images/DashBoardPolish.webp';
 import TyrePolish from './images/TyrePolish.webp';
@@ -49,6 +51,7 @@ const products = Array(16).fill(0).map((_, index) => {
 
 export default function CarCare() {
   const { addToCart } = useCart();
+  const { addToWishlist, isInWishlist } = useWishlist();
   const [sortOrder, setSortOrder] = useState('default');
   const [filterText, setFilterText] = useState('');
   const [filteredProducts, setFilteredProducts] = useState(products);
@@ -76,6 +79,18 @@ export default function CarCare() {
     setFilteredProducts(filtered);
     // Reset sort order when filtering
     setSortOrder('default');
+  };
+
+  const handleShare = (product) => {
+    if (navigator.share) {
+      navigator.share({
+        title: product.name,
+        text: product.name,
+        url: window.location.href,
+      }).catch((error) => console.log('Error sharing', error));
+    } else {
+      alert('Sharing is not supported in this browser.');
+    }
   };
 
   return (
@@ -111,7 +126,7 @@ export default function CarCare() {
         {filteredProducts.map((product, index) => (
           <div
             key={index}
-            className="flex flex-col items-center bg-white shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out p-4 transform hover:-translate-y-2 cursor-pointer"
+            className="flex flex-col items-center bg-white shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out p-4 transform hover:-translate-y-2 cursor-pointer relative"
           >
             <Zoom>
             <Link to={`/product/${product.id}`}>
@@ -122,8 +137,35 @@ export default function CarCare() {
             <div className="flex items-center justify-between w-full mt-1">
               <span className="text-base font-bold text-teal-700">{product.priceDisplay}</span>
             </div>
+            <div className="flex gap-4 mt-2">
+              <button
+                onClick={() => {
+                  if (!isInWishlist(product.id)) {
+                    addToWishlist(product);
+                    alert('Added to wishlist!');
+                  } else {
+                    alert('Product already in wishlist');
+                  }
+                }}
+                aria-label="Add to wishlist"
+                className="p-2 bg-white rounded-full shadow-md hover:bg-gray-100 transition-colors"
+              >
+                <HeartIcon
+                  className={`w-6 h-6 ${
+                    isInWishlist(product.id) ? 'text-red-500' : 'text-gray-700'
+                  }`}
+                />
+              </button>
+              <button
+                onClick={() => handleShare(product)}
+                aria-label="Share product"
+                className="p-2 bg-white rounded-full shadow-md hover:bg-gray-100 transition-colors"
+              >
+                <ShareIcon className="w-6 h-6 text-gray-700" />
+              </button>
+            </div>
             <button 
-              className="w-full text-white bg-teal-700 hover:bg-teal-800  p-2 shadow transition-colors duration-200 ml-2"
+              className="w-full text-white bg-teal-700 hover:bg-teal-800 p-2 shadow transition-colors duration-200 mt-4"
               onClick={() => addToCart(product, 1)}
             >
                 <span className="text-sm md:text-base font-medium">ADD TO CART</span>

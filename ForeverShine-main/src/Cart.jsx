@@ -27,7 +27,7 @@ export default function Cart() {
   }
 
   const handleCheckout = () => {
-    navigate('/payment');
+    navigate('/address');
   };
 
   return (

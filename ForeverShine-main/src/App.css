@@ -24,3 +24,10 @@ button {
 .flex.items-center.justify-between.w-full.mt-1 {
     margin-bottom: 0.25rem; /* reduce bottom margin to make price and button closer */
 }
+
+/* Responsive styles for blog image containers */
+@media (max-width: 640px) {
+  .blog-image-container {
+    height: 250px !important;
+  }
+}

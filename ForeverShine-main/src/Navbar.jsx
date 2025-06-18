@@ -4,12 +4,16 @@ import { ShoppingCartIcon, HeartIcon, ShareIcon, UserIcon, BookmarkIcon, Magnify
 import { Link, useNavigate } from 'react-router-dom';
 import { useCart } from './context/CartContext';
 import { useSearch } from './context/SearchContext';
+import { useWishlist } from './context/WishlistContext';
 import ComingSooon from "./ComingSoon";
 import AdminLogin from './AdminLogin';
+import { useUser } from './context/UserContext';
 
 export default function Navbar() {
   const { getCartCount } = useCart();
   const { searchQuery, setSearchQuery, searchResults, handleSearch, recentSearches, clearRecentSearches, removeRecentSearch } = useSearch();
+  const { wishlist } = useWishlist();
+  const { user, logout } = useUser();
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [adminLoginVisible, setAdminLoginVisible] = useState(false);
@@ -19,6 +23,7 @@ export default function Navbar() {
 
   const cartCount = getCartCount();
   const mobileMenuRef = useRef(null);
+  const mobileMenuButtonRef = useRef(null);
 
   // Close search and mobile menu when clicking outside
   useEffect(() => {
@@ -31,7 +36,9 @@ export default function Navbar() {
       }
       if (
         mobileMenuRef.current &&
-        !mobileMenuRef.current.contains(event.target)
+        !mobileMenuRef.current.contains(event.target) &&
+        mobileMenuButtonRef.current &&
+        !mobileMenuButtonRef.current.contains(event.target)
       ) {
         setIsMobileMenuOpen(false);
       }
@@ -82,14 +89,21 @@ export default function Navbar() {
     <>
       <nav className="w-full shadow-lg bg-gradient-to-b from-teal-900 to-teal-700/80 sticky top-0 z-50">
         {/* Top Banner */}
-        <div className="bg-teal-900 text-white text-center py-2 text-lg font-semibold border-b border-teal-800 tracking-wide shadow-md animate-fadeInDown">
+          <div className="bg-teal-900 text-white text-center py-2 text-lg font-semibold border-b border-teal-800 tracking-wide shadow-md animate-fadeInDown">
           <a href="https://forevershinein.com/" className="underline underline-offset-4 hover:text-yellow-300 transition-colors duration-200">Buy Any 3 Products @ FLAT ₹899 on Selected Products | Shop Now</a>
         </div>
         {/* Main Navbar */}
         <div className="relative flex items-center justify-between py-3 bg-white shadow-md px-4 md:px-20 rounded-b-2xl">
           {/* Mobile Menu Button */}
           <button 
-            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            ref={mobileMenuButtonRef}
+            onClick={() => {
+              setIsMobileMenuOpen(prev => {
+                const newState = !prev;
+                console.log('Hamburger menu toggled, new state:', newState);
+                return newState;
+              });
+            }}
             className="md:hidden flex items-center justify-center hover:text-teal-700 hover:bg-teal-200/60 rounded-full p-2 transition-all duration-200 shadow-sm"
           >
             <Bars3Icon className="w-6 h-6" />
@@ -101,7 +115,7 @@ export default function Navbar() {
           </div>
 
           {/* Desktop Nav Links */}
-          <ul className="hidden md:flex absolute left-1/2 transform -translate-x-1/2 gap-10 items-center text-gray-800 text-lg font-semibold tracking-wide">
+          <ul className="hidden md:flex gap-10 items-center text-gray-800 text-lg font-semibold tracking-wide">
             
             <li className="hover:text-teal-700 hover:underline underline-offset-8 transition-all duration-200 cursor-pointer">
               <Link to="/car-care">Car care</Link>
@@ -271,23 +285,56 @@ export default function Navbar() {
             </div>
 
             {/* Rest of the icons */}
-            <Link
-              to="/account"
-              className="flex items-center justify-center hover:text-teal-700 hover:bg-teal-200/60 rounded-full p-2 transition-all duration-200 shadow-sm"
-            >
-              <UserIcon className="w-5 h-5 md:w-6 md:h-6 align-middle" />
-            </Link>
-
-            
+            {!user ? (
+              <>
+                <Link
+                  to="/Login"
+                  className="text-teal-700 font-semibold ml-4 hover:underline"
+                >
+                  Login
+                </Link>
+                <span className="text-teal-700 font-semibold ml-2 mr-2">/</span>
+                <Link
+                  to="/SignUp"
+                  className="text-teal-700 font-semibold ml-2 hover:underline"
+                >
+                  SignUp
+                </Link>
+              </>
+            ) : (
+              <>
+                <Link
+                  to="/account"
+                  className="flex items-center justify-center hover:text-teal-700 hover:bg-teal-200/60 rounded-full p-2 transition-all duration-200 shadow-sm"
+                >
+                  <UserIcon className="w-5 h-5 md:w-6 md:h-6 align-middle" />
+                </Link>
+                <span className="hidden md:flex items-center text-teal-700 font-semibold ml-4">
+                  Welcome, {user.name}
+                </span>
+                <button
+                  onClick={() => {
+                    logout();
+                    navigate('/');
+                  }}
+                  className="ml-4 px-3 py-1 bg-red-500 text-white rounded hover:bg-red-600 transition-colors"
+                >
+                  Logout
+                </button>
+              </>
+            )}
 
           <Link
             to="/wishlist"
-            className="hidden md:flex items-center justify-center hover:text-teal-700 hover:bg-teal-200/60 rounded-full p-2 transition-all duration-200 shadow-sm"
+            className="relative hidden md:flex items-center justify-center hover:text-teal-700 hover:bg-teal-200/60 rounded-full p-2 transition-all duration-200 shadow-sm"
           >
             <BookmarkIcon className="w-5 h-5 md:w-6 md:h-6 align-middle" />
+            {wishlist.length > 0 && (
+              <span className="absolute -top-1 -right-1 bg-red-500 text-white text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center">
+                {wishlist.length}
+              </span>
+            )}
           </Link>
-
-
 
             <button
               onClick={() => {
@@ -322,3 +369,4 @@ export default function Navbar() {
     </>
   );
 }
+  

@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+
 export default function SignUp() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
   const [error, setError] = useState('');
+  const navigate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -14,8 +16,15 @@ export default function SignUp() {
       return;
     }
     setError('');
-    console.log('SignUp submitted:', { name, email, password });
-    // Add signup logic here
+    // Mock signup: save user data in localStorage
+    const users = JSON.parse(localStorage.getItem('users') || '[]');
+    if (users.find(u => u.email === email)) {
+      setError('User with this email already exists');
+      return;
+    }
+    users.push({ name, email, password });
+    localStorage.setItem('users', JSON.stringify(users));
+    navigate('/Login');
   };
 
   return (

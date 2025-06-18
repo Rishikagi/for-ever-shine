@@ -145,7 +145,7 @@ Route::post('/add-card', 'SquareController@addCard')->name('add-card');
 		Route::resource('roles', 'RoleController');
 	});
 
-	Route::group(['prefix'=>'admin','as'=>'admin','middleware'=>['auth','checkadminurl'],'as'=>'admin.'],function() {
+	Route::group(['prefix'=>'admin','as'=>'admin','middleware'=>['auth','checkadminurl','adminrole'],'as'=>'admin.'],function() {
 
 		Route::match(['get','post'],'/change-password', 'Admin\AdminController@changePassword')->name('changepassword');
 		Route::get('dashboard', 'Admin\DashboardController@index');

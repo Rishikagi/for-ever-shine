@@ -66,5 +66,6 @@ class Kernel extends HttpKernel
         'WholesaleAuth' => \App\Http\Middleware\Userauth::class,
         'checkadminurl' => \App\Http\Middleware\CheckAdminUrl::class,
         'ConfigureCompanyDatabase' => \App\Http\Middleware\ConfigureCompanyDatabase::class,
+        'adminrole' => \App\Http\Middleware\AdminRoleMiddleware::class,
     ];
 }

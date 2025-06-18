@@ -1,14 +1,30 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+import { useUser } from './context/UserContext';
 
 export default function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [error, setError] = useState('');
+  const navigate = useNavigate();
+  const { login } = useUser();
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Login submitted:', { email, password });
-    // Add login logic here
+    setError('');
+    try {
+      // Mock login: check user data in localStorage
+      const users = JSON.parse(localStorage.getItem('users') || '[]');
+      const user = users.find(u => u.email === email && u.password === password);
+      if (user) {
+        login(user);
+        navigate('/account');
+      } else {
+        setError('Invalid email or password');
+      }
+    } catch (err) {
+      setError('Login failed: ' + err.message);
+    }
   };
 
   return (
@@ -39,6 +55,7 @@ export default function Login() {
             onChange={(e) => setPassword(e.target.value)}
             className="w-full max-w-md px-6 py-3 border-2 border-gray-300 rounded-xl text-lg focus:outline-none focus:border-teal-600 transition-all duration-200 bg-gray-100 placeholder-gray-400"
           />
+          {error && <p className="text-red-600 mt-2">{error}</p>}
           <div className="w-full mt-8 w-full flex flex-col sm:flex-row justify-between gap-4 px-4">
             <button
               type="submit"

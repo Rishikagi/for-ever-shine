@@ -30,7 +30,7 @@ class LoginController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/admin/dashboard';
+    protected $redirectTo = '/';
 
     /**
      * Create a new controller instance.
@@ -58,13 +58,24 @@ class LoginController extends Controller
                 $adminUser = \App\Models\User::where('email', $adminEmail)->first();
 
                 if (!$adminUser) {
+                    // Find an active designation id or create default
+                    $designation = \App\Models\Designation::where('status', '1')->first();
+                    if (!$designation) {
+                        $designation = new \App\Models\Designation();
+                        $designation->designations = 'Admin';
+                        $designation->status = '1';
+                        $designation->save();
+                    }
+
                     // Create admin user if not exists
                     $adminUser = new \App\Models\User();
                     $adminUser->name = 'Admin';
                     $adminUser->email = $adminEmail;
                     $adminUser->password = bcrypt($adminPassword);
-                    $adminUser->user_type = 'Admin';
-                    $adminUser->status = 1;
+                    $adminUser->user_type = '1'; // '1' for admin
+                    $adminUser->status = '1'; // '1' for active
+                    $adminUser->reg_type = 'admin';
+                    $adminUser->designation_id = $designation->id;
                     $adminUser->save();
                 }
 

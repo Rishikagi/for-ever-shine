@@ -22,7 +22,7 @@ export default function AdminLogin({ onClose }) {
       if (response.ok) {
         // Login successful, redirect or close modal
         onClose();
-        window.location.href = '/admin/dashboard';
+        window.location.href = '/';
       } else {
         const data = await response.json();
         setError(data.message || 'Login failed');

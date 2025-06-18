@@ -21,12 +21,16 @@ import Login from './Login'
 import SignUp from './SignUp'
 import Wishlist from './Wishlist'
 import Payment from './Payment'
+import Address from './Address'
 
 import SearchResults from './SearchResults'
 import { CartProvider } from './context/CartContext'
 import { SearchProvider } from './context/SearchContext'
 import { WishlistProvider } from './context/WishlistContext'
+import { UserProvider } from './context/UserContext'
 import ErrorBoundary from './components/ErrorBoundary'
+import ScrollToTop from './components/ScrollToTop'
+import ScrollToTopButton from './components/ScrollToTopButton'
 
 // Footer Pages
 const Contact = () => (
@@ -71,186 +75,197 @@ const Cookies = () => (
 
 function App() {
   return (
-    <WishlistProvider>
-      <CartProvider>
-        <SearchProvider>
-          <BrowserRouter>
-            <ChatBot />
-            <Routes>
-              <Route path="/" element={
-                <>
-                  <Navbar />
-                  <Slider />
-                  <HomeSections />
-                  <Footer />
-                </>
-              } />
-             
-              <Route path="/car-care" element={
-                <>
-                  <Navbar />
-                  <CarCare />
-                  <Footer />
-                </>
-              } />
-              <Route path="/home-care" element={
-                <>
-                  <Navbar />
-                  <HomeCare />
-                  <Footer />
-                </>
-              } />
-              <Route path="/personal-care" element={
-                <>
-                  <Navbar />
-                  <PersonalCare />
-                  <Footer />
-                </>
-              } />
-              <Route path="/about-us" element={
-                <>
-                  <Navbar />
-                  <AboutUs />
-                  <Footer />
-                </>
-              } />
-              <Route path="/Login" element={
-                <>
-                  <Navbar />
-                  <Login />
-                  <Footer />
-                </>
-              } />
-              <Route path="/SignUp" element={
-                <>
-                  <Navbar />
-                  <SignUp />
-                  <Footer />
-                </>
-              } />
-            <Route path="/product/:productId" element={
-                <>
-                  <Navbar />
-                  <ErrorBoundary>
-                    <ProductDetails />
-                  </ErrorBoundary>
-                  <Footer />
-                </>
-              } />
-              <Route path="/cart" element={
-                <>
-                  <Navbar />
-                  <ErrorBoundary>
-                    <Cart />
-                  </ErrorBoundary>
-                  <Footer />
-                </>
-              } />
-              <Route path="/account" element={
-                <>
-                  <Navbar />
-                  <Account />
-                  <Footer />
-                </>
-              } />
-              <Route path="/Coming-Soon" element={
-                <>
-                  <Navbar />
-                  <ComingSoon />
-                  <Footer />
-                </>
-              } />
-              <Route path="/wishlist" element={
-                <>
-                  <Navbar />
-                  <Wishlist />
-                  <Footer />
-                </>
-              } />
-              <Route path="/search" element={
-                <>
-                  <Navbar />
-                  <SearchResults />
-                  <Footer />
-                </>
-              } />
-              {/* Footer Links Routes */}
-              <Route path="/contact" element={
-                <>
-                  <Navbar />
-                  <Contact />
-                  <Footer />
-                </>
-              } />
-              <Route path="/Shiping-Policy" element={
-                <>
-                  <Navbar />
-                  <ShipingPolicy />
-                  <Footer />
-                </>
-              } />
-              <Route path="/returns" element={
-                <>
-                  <Navbar />
-                  <Returns />
-                  <Footer />
-                </>
-              } />
-              <Route path="/faq" element={
-                <>
-                  <Navbar />
-                  <FAQ />
-                  <Footer />
-                </>
-              } />
-              <Route path="/privacy" element={
-                <>
-                  <Navbar />
-                  <Privacy />
-                  <Footer />
-                </>
-              } />
-              <Route path="/terms" element={
-                <>
-                  <Navbar />
-                  <Terms />
-                  <Footer />
-                </>
-              } />
-               <Route path="/BlogOne" element={
-                <>
-                  <Navbar />
-                  <BlogOne/>
-                  <Footer />
-                </>
-              } />
-               <Route path="/BlogThree" element={
-                <>
-                  <Navbar />
-                  <BlogThree/>
-                  <Footer />
-                </>
-              } />
-              <Route path="/cookies" element={
-                <>
-                  <Navbar />
-                  <Cookies />
-                  <Footer />
-                </>
-                
-              } />
-              <Route path="/payment" element={
-                <>
-                  <Navbar />
-                  <Payment />
-                  <Footer />
-                </>
-              } />
-            </Routes>
-          </BrowserRouter>
-        </SearchProvider>
-      </CartProvider>
-    </WishlistProvider>
+    <UserProvider>
+      <WishlistProvider>
+        <CartProvider>
+          <SearchProvider>
+            <BrowserRouter>
+              <ScrollToTop />
+              <ScrollToTopButton />
+              <ChatBot />
+              <Routes>
+                <Route path="/" element={
+                  <>
+                    <Navbar />
+                    <Slider />
+                    <HomeSections />
+                    <Footer />
+                  </>
+                } />
+               
+                <Route path="/car-care" element={
+                  <>
+                    <Navbar />
+                    <CarCare />
+                    <Footer />
+                  </>
+                } />
+                <Route path="/home-care" element={
+                  <>
+                    <Navbar />
+                    <HomeCare />
+                    <Footer />
+                  </>
+                } />
+                <Route path="/personal-care" element={
+                  <>
+                    <Navbar />
+                    <PersonalCare />
+                    <Footer />
+                  </>
+                } />
+                <Route path="/about-us" element={
+                  <>
+                    <Navbar />
+                    <AboutUs />
+                    <Footer />
+                  </>
+                } />
+                <Route path="/Login" element={
+                  <>
+                    <Navbar />
+                    <Login />
+                    <Footer />
+                  </>
+                } />
+                <Route path="/SignUp" element={
+                  <>
+                    <Navbar />
+                    <SignUp />
+                    <Footer />
+                  </>
+                } />
+              <Route path="/product/:productId" element={
+                  <>
+                    <Navbar />
+                    <ErrorBoundary>
+                      <ProductDetails />
+                    </ErrorBoundary>
+                    <Footer />
+                  </>
+                } />
+                <Route path="/cart" element={
+                  <>
+                    <Navbar />
+                    <ErrorBoundary>
+                      <Cart />
+                    </ErrorBoundary>
+                    <Footer />
+                  </>
+                } />
+                <Route path="/account" element={
+                  <>
+                    <Navbar />
+                    <Account />
+                    <Footer />
+                  </>
+                } />
+                <Route path="/Coming-Soon" element={
+                  <>
+                    <Navbar />
+                    <ComingSoon />
+                    <Footer />
+                  </>
+                } />
+                <Route path="/wishlist" element={
+                  <>
+                    <Navbar />
+                    <Wishlist />
+                    <Footer />
+                  </>
+                } />
+                <Route path="/search" element={
+                  <>
+                    <Navbar />
+                    <SearchResults />
+                    <Footer />
+                  </>
+                } />
+                {/* Footer Links Routes */}
+                <Route path="/contact" element={
+                  <>
+                    <Navbar />
+                    <Contact />
+                    <Footer />
+                  </>
+                } />
+                <Route path="/Shiping-Policy" element={
+                  <>
+                    <Navbar />
+                    <ShipingPolicy />
+                    <Footer />
+                  </>
+                } />
+                <Route path="/returns" element={
+                  <>
+                    <Navbar />
+                    <Returns />
+                    <Footer />
+                  </>
+                } />
+                <Route path="/faq" element={
+                  <>
+                    <Navbar />
+                    <FAQ />
+                    <Footer />
+                  </>
+                } />
+                <Route path="/privacy" element={
+                  <>
+                    <Navbar />
+                    <Privacy />
+                    <Footer />
+                  </>
+                } />
+                <Route path="/terms" element={
+                  <>
+                    <Navbar />
+                    <Terms />
+                    <Footer />
+                  </>
+                } />
+                 <Route path="/BlogOne" element={
+                  <>
+                    <Navbar />
+                    <BlogOne/>
+                    <Footer />
+                  </>
+                } />
+                 <Route path="/BlogThree" element={
+                  <>
+                    <Navbar />
+                    <BlogThree/>
+                    <Footer />
+                  </>
+                } />
+                <Route path="/cookies" element={
+                  <>
+                    <Navbar />
+                    <Cookies />
+                    <Footer />
+                  </>
+                  
+                } />
+                <Route path="/payment" element={
+                  <>
+                    <Navbar />
+                    <Payment />
+                    <Footer />
+                  </>
+                } />
+                <Route path="/address" element={
+                  <>
+                    <Navbar />
+                    <Address />
+                    <Footer />
+                  </>
+                } />
+              </Routes>
+            </BrowserRouter>
+          </SearchProvider>
+        </CartProvider>
+      </WishlistProvider>
+    </UserProvider>
   )
 }
 
