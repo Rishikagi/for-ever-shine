@@ -184,7 +184,7 @@ export default function HomeSections() {
         {newArrivals.map((prod, idx) => (
           <div 
             key={idx} 
-            className="flex flex-col items-center w-full bg-white shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out p-4 transform hover:-translate-y-2 cursor-pointer relative"
+            className="flex flex-col items-start w-full bg-white shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out p-4 transform hover:-translate-y-2 cursor-pointer relative"
           >
             <Zoom>
               <Link to={`/product/${prod.id}`}>
