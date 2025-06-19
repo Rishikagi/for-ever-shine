@@ -9,6 +9,23 @@ import TyrePolish from './images/TyrePolish.webp';
 import CarwashShampoo from './images/CarWashShampoo.webp';
 import RoomFreshener from './images/RoomFreshner.webp';
 
+function StarRating({ rating }) {
+  return (
+    <div className="flex items-center">
+      {[...Array(5)].map((_, i) => (
+        <svg
+          key={i}
+          className={`w-5 h-5 ${i < rating ? 'text-yellow-400' : 'text-gray-300'}`}
+          fill="currentColor"
+          viewBox="0 0 20 20"
+        >
+          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+        </svg>
+      ))}
+    </div>
+  );
+}
+
 // This would typically come from an API or database
 const products = {
   'car-perfume': {
@@ -242,6 +259,56 @@ export default function ProductDetails() {
   const [zoomPosition, setZoomPosition] = useState({ x: 0, y: 0 });
   const [isTouchZoomActive, setIsTouchZoomActive] = useState(false);
   const imgRef = useRef(null);
+
+  // Reviews state
+  const [reviews, setReviews] = useState(() => {
+    // Generate at least 7 demo reviews with random star ratings and placeholder text
+    const demoReviews = [];
+    const reviewTexts = [
+      "Excellent product, highly recommend!",
+      "Good value for the price.",
+      "Works as expected, satisfied with the purchase.",
+      "Quality could be better, but overall okay.",
+      "Five stars! Will buy again.",
+      "Not what I expected, but still decent.",
+      "Amazing! Exceeded my expectations."
+    ];
+    const randomNames = [
+      "Alice", "Bob", "Charlie", "Diana", "Ethan", "Fiona", "George", "Hannah", "Ian", "Julia"
+    ];
+    for (let i = 0; i < 7; i++) {
+      demoReviews.push({
+        id: i + 1,
+        name: randomNames[Math.floor(Math.random() * randomNames.length)],
+        rating: Math.floor(Math.random() * 5) + 1,
+        content: reviewTexts[i % reviewTexts.length]
+      });
+    }
+    return demoReviews;
+  });
+  const [showReviewForm, setShowReviewForm] = useState(false);
+  const [newReviewName, setNewReviewName] = useState('');
+  const [newReviewRating, setNewReviewRating] = useState(0);
+  const [newReviewContent, setNewReviewContent] = useState('');
+
+  const handleReviewSubmit = (e) => {
+    e.preventDefault();
+    if (newReviewName.trim() === '' || newReviewRating === 0 || newReviewContent.trim() === '') {
+      alert('Please fill in all review fields.');
+      return;
+    }
+    const newReview = {
+      id: reviews.length + 1,
+      name: newReviewName,
+      rating: newReviewRating,
+      content: newReviewContent
+    };
+    setReviews([newReview, ...reviews]);
+    setShowReviewForm(false);
+    setNewReviewName('');
+    setNewReviewRating(0);
+    setNewReviewContent('');
+  };
 
   const getEventPosition = (e) => {
     if (e.touches && e.touches.length > 0) {
@@ -530,6 +597,105 @@ export default function ProductDetails() {
           </div>
         </div>
       </div>
+
+      {/* Reviews Section */}
+      <div className="mt-8">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-4">Customer Reviews</h2>
+        {reviews.length === 0 && <p className="text-gray-600">No reviews yet.</p>}
+        <div className="space-y-6">
+          {reviews.map((review) => (
+            <div key={review.id} className="border border-gray-200 rounded-lg p-4">
+              <div className="flex items-center justify-between mb-2">
+                <h3 className="font-semibold text-gray-900">{review.name}</h3>
+                <StarRating rating={review.rating} />
+              </div>
+              <p className="text-gray-700">{review.content}</p>
+            </div>
+          ))}
+        </div>
+        <button
+          onClick={() => setShowReviewForm(true)}
+          className="mt-6 bg-teal-600 text-white px-6 py-2 rounded-full hover:bg-teal-700 transition-colors"
+        >
+          Write a Review
+        </button>
+      </div>
+
+      {/* Review Form Modal */}
+      {showReviewForm && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+          <div className="bg-white rounded-lg p-6 w-full max-w-md mx-4">
+            <h2 className="text-xl font-semibold mb-4">Write a Review for {product.name}</h2>
+            <form onSubmit={handleReviewSubmit} className="space-y-4">
+              <div>
+                <label htmlFor="name" className="block text-gray-700 font-medium mb-1">
+                  Your Name
+                </label>
+                <input
+                  id="name"
+                  type="text"
+                  value={newReviewName}
+                  onChange={(e) => setNewReviewName(e.target.value)}
+                  className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-teal-600"
+                  required
+                />
+              </div>
+              <div>
+                <label className="block text-gray-700 font-medium mb-1">Rating</label>
+                <div className="flex space-x-1">
+                  {[1, 2, 3, 4, 5].map((star) => (
+                    <button
+                      key={star}
+                      type="button"
+                      onClick={() => setNewReviewRating(star)}
+                      className={`focus:outline-none ${
+                        star <= newReviewRating ? 'text-yellow-400' : 'text-gray-300'
+                      }`}
+                      aria-label={`${star} star`}
+                    >
+                      <svg
+                        className="w-6 h-6"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                      >
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+                    </button>
+                  ))}
+                </div>
+              </div>
+              <div>
+                <label htmlFor="content" className="block text-gray-700 font-medium mb-1">
+                  Review
+                </label>
+                <textarea
+                  id="content"
+                  value={newReviewContent}
+                  onChange={(e) => setNewReviewContent(e.target.value)}
+                  className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-teal-600"
+                  rows={4}
+                  required
+                />
+              </div>
+              <div className="flex justify-end space-x-4">
+                <button
+                  type="button"
+                  onClick={() => setShowReviewForm(false)}
+                  className="px-4 py-2 rounded bg-gray-300 hover:bg-gray-400 transition-colors"
+                >
+                  Cancel
+                </button>
+                <button
+                  type="submit"
+                  className="px-4 py-2 rounded bg-teal-600 text-white hover:bg-teal-700 transition-colors"
+                >
+                  Submit Review
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

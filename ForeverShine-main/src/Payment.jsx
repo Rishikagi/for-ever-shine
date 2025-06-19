@@ -49,6 +49,10 @@ export default function Payment() {
     }, 2000);
   };
 
+  const handleOtherPaymentConfirmation = () => {
+    setPaymentStatus({ success: true, message: 'Your order has been placed. Thank you for your purchase.' });
+  };
+
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
       <h1 className="text-3xl font-bold mb-8">Online Payment</h1>
@@ -74,7 +78,7 @@ export default function Payment() {
           />
           PayPal
         </label>
-        <label>
+        <label className="mr-6">
           <input
             type="radio"
             value="qr"
@@ -83,6 +87,16 @@ export default function Payment() {
             className="mr-2"
           />
           QR Code
+        </label>
+        <label>
+          <input
+            type="radio"
+            value="cod"
+            checked={paymentMethod === 'cod'}
+            onChange={handlePaymentMethodChange}
+            className="mr-2"
+          />
+          Cash on Delivery
         </label>
       </div>
 
@@ -153,7 +167,12 @@ export default function Payment() {
         <div className="max-w-md">
           <p className="mb-4">You will be redirected to PayPal to complete your payment.</p>
           <button
-            onClick={() => alert('Redirecting to PayPal (simulated)...')}
+            onClick={() => {
+              // Simulate redirect and confirmation
+              handleOtherPaymentConfirmation();
+              // Optionally, redirect to PayPal
+              // window.location.href = 'https://www.paypal.com/checkout';
+            }}
             className="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition"
           >
             Pay with PayPal
@@ -169,6 +188,24 @@ export default function Payment() {
             alt="QR Code"
             className="mx-auto"
           />
+          <button
+            onClick={handleOtherPaymentConfirmation}
+            className="mt-4 w-full bg-teal-600 text-white py-3 rounded hover:bg-teal-700 transition"
+          >
+            Confirm Payment
+          </button>
+        </div>
+      )}
+
+      {paymentMethod === 'cod' && (
+        <div className="max-w-md">
+          <p className="mb-4">You will pay with cash on delivery.</p>
+          <button
+            onClick={handleOtherPaymentConfirmation}
+            className="w-full bg-teal-600 text-white py-3 rounded hover:bg-teal-700 transition"
+          >
+            Confirm Order
+          </button>
         </div>
       )}
 
