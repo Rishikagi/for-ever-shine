@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useCart } from './context/CartContext';
 import { useWishlist } from './context/WishlistContext';
-import { HeartIcon, ShareIcon } from '@heroicons/react/24/outline';
+import { HeartIcon as OutlineHeartIcon, ShareIcon } from '@heroicons/react/24/outline';
+// Removed import of SolidHeartIcon to replace with inline SVG
 import PersonalCare from './images/Property 1=Group 8.jpg'
 import HomeCare from './images/Property 1=Component 7.jpg'
 import CarCare from './images/Property 1=1737913248.jpg'
@@ -20,16 +21,16 @@ import 'react-medium-image-zoom/dist/styles.css'
 
 const categories = [
   {
-    name: 'Personal Care (Coming soon)',
-    icon: PersonalCare,
-  },
-  {
     name: 'Car Care',
     icon: CarCare,
   },
   {
     name: 'Home Care',
     icon: HomeCare,
+  },
+  {
+    name: 'Personal Care (Coming soon)',
+    icon: PersonalCare,
   },
 ];
 
@@ -154,11 +155,13 @@ export default function HomeSections() {
                 aria-label={isInWishlist(prod.id) ? "Remove from wishlist" : "Add to wishlist"}
                 className="p-2 rounded-full"
               >
-                <HeartIcon
-                  className={`w-6 h-6 ${
-                    isInWishlist(prod.id) ? 'text-red-500' : 'text-gray-700'
-                  }`}
-                />
+                {isInWishlist(prod.id) ? (
+                  <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-red-500" viewBox="0 0 24 24" fill="red" stroke="red" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M12 21C12 21 5 14.5 5 9.5C5 7.01472 7.01472 5 9.5 5C10.8807 5 12 6.11929 12 6.11929C12 6.11929 13.1193 5 14.5 5C16.9853 5 19 7.01472 19 9.5C19 14.5 12 21 12 21Z" />
+                  </svg>
+                ) : (
+                  <OutlineHeartIcon className="w-6 h-6 text-gray-700" />
+                )}
               </button>
               <button
                 onClick={() => handleShare(prod)}
@@ -208,11 +211,13 @@ export default function HomeSections() {
                 aria-label="Add to wishlist"
                 className="p-2 rounded-full"
               >
-                <HeartIcon
-                  className={`w-6 h-6 ${
-                    isInWishlist(prod.id) ? 'text-red-500' : 'text-gray-700'
-                  }`}
-                />
+                {isInWishlist(prod.id) ? (
+                  <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-red-500" viewBox="0 0 24 24" fill="red" stroke="red" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M12 21C12 21 5 14.5 5 9.5C5 7.01472 7.01472 5 9.5 5C10.8807 5 12 6.11929 12 6.11929C12 6.11929 13.1193 5 14.5 5C16.9853 5 19 7.01472 19 9.5C19 14.5 12 21 12 21Z" />
+                  </svg>
+                ) : (
+                  <OutlineHeartIcon className="w-6 h-6 text-gray-700" />
+                )}
               </button>
               <button
                 onClick={() => handleShare(prod)}
