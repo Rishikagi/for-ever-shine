@@ -53,6 +53,11 @@ export default function Payment() {
     setPaymentStatus({ success: true, message: 'Your order has been placed. Thank you for your purchase.' });
   };
 
+  const redirectToGooglePay = () => {
+    // Redirect to Google Pay payment URL (example URL)
+    window.location.href = 'https://pay.google.com/gp/w/u/0/home/paymentmethods';
+  };
+
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
       <h1 className="text-3xl font-bold mb-8">Online Payment</h1>
@@ -66,7 +71,7 @@ export default function Payment() {
             onChange={handlePaymentMethodChange}
             className="mr-2"
           />
-          Credit Card
+          Credit Card / Debit Card
         </label>
         <label className="mr-6">
           <input
@@ -76,17 +81,7 @@ export default function Payment() {
             onChange={handlePaymentMethodChange}
             className="mr-2"
           />
-          PayPal
-        </label>
-        <label className="mr-6">
-          <input
-            type="radio"
-            value="qr"
-            checked={paymentMethod === 'qr'}
-            onChange={handlePaymentMethodChange}
-            className="mr-2"
-          />
-          QR Code
+          PayPal / UPI
         </label>
         <label>
           <input
@@ -165,34 +160,12 @@ export default function Payment() {
 
       {paymentMethod === 'paypal' && (
         <div className="max-w-md">
-          <p className="mb-4">You will be redirected to PayPal to complete your payment.</p>
+          <p className="mb-4">You will be redirected to Google Pay to complete your payment.</p>
           <button
-            onClick={() => {
-              // Simulate redirect and confirmation
-              handleOtherPaymentConfirmation();
-              // Optionally, redirect to PayPal
-              // window.location.href = 'https://www.paypal.com/checkout';
-            }}
+            onClick={redirectToGooglePay}
             className="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition"
           >
-            Pay with PayPal
-          </button>
-        </div>
-      )}
-
-      {paymentMethod === 'qr' && (
-        <div className="max-w-md">
-          <p className="mb-4">Scan the QR code below to pay:</p>
-          <img
-            src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=PaymentLink"
-            alt="QR Code"
-            className="mx-auto"
-          />
-          <button
-            onClick={handleOtherPaymentConfirmation}
-            className="mt-4 w-full bg-teal-600 text-white py-3 rounded hover:bg-teal-700 transition"
-          >
-            Confirm Payment
+            Pay with Google Pay
           </button>
         </div>
       )}
