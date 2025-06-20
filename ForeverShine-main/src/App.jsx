@@ -32,13 +32,10 @@ import ErrorBoundary from './components/ErrorBoundary'
 import ScrollToTop from './components/ScrollToTop'
 import ScrollToTopButton from './components/ScrollToTopButton'
 
+import ContactUs from './ContactUs';
+
 // Footer Pages
-const Contact = () => (
-  <div className="max-w-4xl mx-auto px-4 py-12">
-    <h1 className="text-3xl font-bold mb-8">Contact Us</h1>
-    <p className="text-gray-600">Contact page content coming soon...</p>
-  </div>
-);
+// Removed inline Contact component
 
 
 
@@ -49,12 +46,7 @@ const Returns = () => (
   </div>
 );
 
-const FAQ = () => (
-  <div className="max-w-4xl mx-auto px-4 py-12">
-    <h1 className="text-3xl font-bold mb-8">Frequently Asked Questions</h1>
-    <p className="text-gray-600">FAQ content coming soon...</p>
-  </div>
-);
+import FAQ from './FAQ';
 
 
 
@@ -185,7 +177,7 @@ function App() {
                 <Route path="/contact" element={
                   <>
                     <Navbar />
-                    <Contact />
+                    <ContactUs />
                     <Footer />
                   </>
                 } />
