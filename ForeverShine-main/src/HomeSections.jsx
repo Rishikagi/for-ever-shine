@@ -273,10 +273,10 @@ export default function HomeSections() {
              
               <div className="font-bold text-xl md:text-2xl mb-2">
                  <div className='services-icon font-bold text-xl md:text-2xl mb-2'><img src='https://thumbs.dreamstime.com/b/flat-line-design-concept-icon-purchase-returns-support-delivery-process-online-order-procedure-website-banner-landing-page-120718997.jpg'  className='shadow-xl border-4 border-gray-100 hover:scale-105 hover:shadow-2xl transition-all duration-300'/></div>
-                <span className="text-[#3422FF]">30 days</span>
+                <span className="text-[#3422FF]">7 days</span>
                 <span className="text-black"> Return</span>
               </div>
-              <div className="text-base md:text-lg text-gray-800">Simply return it within 30 days for an exchange</div>
+              <div className="text-base md:text-lg text-gray-800">Simply return it within 7 days for an exchange</div>
             </div>
             <div className="flex flex-col items-center">
               
