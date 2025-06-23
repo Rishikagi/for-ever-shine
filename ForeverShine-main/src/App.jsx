@@ -34,17 +34,7 @@ import ScrollToTopButton from './components/ScrollToTopButton'
 
 import ContactUs from './ContactUs';
 
-// Footer Pages
-// Removed inline Contact component
-
-
-
-const Returns = () => (
-  <div className="max-w-4xl mx-auto px-4 py-12">
-    <h1 className="text-3xl font-bold mb-8">Returns & Refunds</h1>
-    <p className="text-gray-600">Returns and refunds policy content coming soon...</p>
-  </div>
-);
+import Returns from './Returns';
 
 import FAQ from './FAQ';
 
