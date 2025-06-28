@@ -3,11 +3,13 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { ShoppingCartIcon, HeartIcon, ShareIcon } from '@heroicons/react/24/outline';
 import { useCart } from './context/CartContext';
 import { useWishlist } from './context/WishlistContext';
-import CarPerfume from './images/CarPerfume.webp';
-import DashboardPolish from './images/DashBoardPolish.webp';
-import TyrePolish from './images/TyrePolish.webp';
-import CarwashShampoo from './images/CarWashShampoo.webp';
-import RoomFreshener from './images/RoomFreshner.webp';
+import RoomFreshener from './assets/200ml/Car-perfume.png'
+import CarPerfume from './assets/200ml/Car-perfume.png'
+import DashboardPolish from './assets/200ml/Dashboard-polish.png'
+import TyrePolish from './assets/200ml/Tyre-polish.png'
+import CarwashShampoo from './assets/200ml/Car-wash-shampoo.png'
+import Forevershine from './images/ForeverShine.jpg'
+
 
 function StarRating({ rating }) {
   return (
